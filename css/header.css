@@ -1,0 +1,63 @@
+.header {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    font-weight: 400;
+}
+.header__inner {
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* &&__logo ========================================> */
+.header__logo {
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 1.35em;
+    font-size: 40px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+/* &&__menu ========================================> */
+.header__menu {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    border-top: 1px solid #000;
+    padding: 20px 0;
+    grid-gap: 20px;
+}
+.header__link {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    line-height: 30px;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* BlockMenu ========================================> */
+.menu {
+    width: 100%;
+    height: auto;
+    padding: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+}

@@ -1,0 +1,76 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* 
+    font-family: 'Montserrat';
+                 'Roboto';
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #fff;
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Montserrat';
+    font-weight: 300;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.center {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-gap: 20px;
+    background: #fff;
+    margin: 20px 0;
+}
+
+/* Titles and txts */
+.title__primary {
+    font-size: 38px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.title__secondary {
+    font-size: 25px;
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+}
+.txt__primary {
+    font-size: 22px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 32px;
+}
+.txt__secondary {
+    font-size: 18px;
+}
+.default__link {
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    font-size: 18px;
+}
+.title__thirty {
+    font-size: 28px;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 32px;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+}

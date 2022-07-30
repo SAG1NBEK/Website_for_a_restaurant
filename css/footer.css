@@ -1,0 +1,16 @@
+.footer {
+    width: 100%;
+    height: auto;
+    width: 100%;
+    padding: 20px 0;
+    background: #f1f1f1;
+}
+.footer.bg__primary {
+    background: #fff;
+}
+.footer__inner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+}

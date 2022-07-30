@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная | В гостях у Пико</title>
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Header Css -->
+    <link rel="stylesheet" href="css/header.css">
+    <!-- Slider Css -->
+    <link rel="stylesheet" href="css/slider.css">
+    <!-- Content Css -->
+    <link rel="stylesheet" href="css/content.css">
+    <!-- Footer Css -->
+    <link rel="stylesheet" href="css/footer.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+
+            <!-- Logo -->
+            <h1 class="header__logo">В гостях у Пико</h1>
+
+            <!-- Menu -->
+            <ul class="header__menu">
+                <li>
+                    <a href="main.html" class="header__link">Главная</a>
+                </li>
+                <li>
+                    <a href="foods.html" class="header__link">Наше меню</a>
+                </li>
+                <li>
+                    <a href="about.html" class="header__link">О нас</a>
+                </li>
+                <li>
+                    <a href="about-boss.html" class="header__link">О шефе</a>
+                </li>
+                <li>
+                    <a href="contacts.html" class="header__link">Наша комманда</a>
+                </li>
+            </ul>
+
+        </div>
+    </header>
+
+
+    <div class="main">
+        <h1 class="main__title">Ешь. Пей. Отдыхай.</h1>
+    </div>
+
+    <div class="slider">
+        <div class="item">
+            <img src="images/slider-1.jpg">
+        </div>
+    
+        <div class="item">
+            <img src="images/slider-2.jpg">
+        </div>
+    
+        <div class="item">
+            <img src="images/slider-3.jpg">
+        </div>
+    
+        <div class="item">
+            <img src="images/slider-4.jpg">
+        </div>
+
+        <div class="item">
+            <img src="images/slider-5.jpg">
+        </div>
+    
+        <div class="item">
+            <img src="images/slider-6.jpg">
+        </div>
+    </div>
+    
+    <div class="slider-dots">
+        <span class="slider-dots_item" onclick="currentSlide(1)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(2)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(3)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(4)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(5)"></span> 
+        <span class="slider-dots_item" onclick="currentSlide(6)"></span> 
+    </div>
+
+    <!-- About Us -->
+    <div class="about_us">
+        <div class="container">
+            
+            <div class="about_us__inner">
+                <h1 class="title__primary">О нас</h1>
+                <p class="txt__primary">"В гостях у Пико" вы никогда не покинете нас не сытым или недовольным. Здесь вы можете попробовать западную и азиатскую кухню. По вечерам наслаждаться живой музыкой и вкусной едой.</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Recommendation -->
+    <div class="recommendation">
+        <div class="recommendation__item">
+            <img src="images/slider-6.jpg" alt="" srcset="" class="recommendation__image">
+        </div>
+        <div class="recommendation__nav">
+            <div class="recomendation__block">
+                <h1 class="title__primary">Блюда</h1>
+                
+                <ul class="recommendation__menu">
+                    <li>
+                        <i class="fa-solid fa-tags"></i>
+                        <div class="recommendation__menu-nav">
+                            <h2 class="title__secondary">Салаты</h2>
+                            <p class="txt__secondary">Подается весь день</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-tags"></i>
+                        <div class="recommendation__menu-nav">
+                            <h2 class="title__secondary">Основные блюда</h2>
+                            <p class="txt__secondary">Отличный выбор</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-tags"></i>
+                        <div class="recommendation__menu-nav">
+                            <h2 class="title__secondary">Десерты</h2>
+                            <p class="txt__secondary">Подается весь день</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contacts -->
+    <div class="contacts">
+        <div class="container">
+            
+            <div class="contacts__inner">
+                <h1 class="title__primary">Наши контакты</h1>
+                <p class="txt__primary"><span>ул.Айтеке Би</span> 58, <span>Атырау, Казахстан</span></p> 
+                <a href="mailto:vgostyahupiko_atyrau@mail.ru" class="default__link">@vgostyahupiko_atyrau@mail.ru</a>
+                <p class="txt__primary">8 777 127 0090</p>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Dates -->
+    <div class="dates">
+        <div class="dates__inner">
+            <h2 class="title__secondary">Время работы</h2>
+            <p class="txt__secondary">Поужинайте или возьмите с собой</p>
+            <p class="txt__secondary">Вторник - Cуббота: 11:00 - 23:00</p>
+            <p class="txt__secondary">Воскресенье: 11:00 - 19:00</p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            
+            <div class="footer__inner">
+                <h2 class="title__secondary">в гостях у Пико</h2>
+                <a href="mailto:vgostyahupiko_atyrau@mail.ru" class="default__link">@vgostyahupiko_atyrau@mail.ru</a>
+                <p class="txt__primary">8 777 127 0090</p>
+            </div>
+            
+        </div>
+    </footer>
+
+    <!-- Slider Js -->
+    <script src="js/slider.js"></script>
+</body>
+</html>

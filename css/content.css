@@ -1,0 +1,185 @@
+/* About Us ========================================> */
+.about_us {
+    width: 100%;
+    padding: 60px 300px;
+    background: #DFEFF2;
+}
+.about_us__inner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+}
+
+/* Recommendation ========================================> */
+.recommendation {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.recommendation__item {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    overflow: hidden;
+}
+.recommendation__image {
+    width: 100%;
+    height: 100%;
+}
+.recommendation__nav {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.recomendation__block {
+    max-width: 500px;
+    min-width: 500px;
+    display: block;
+    height: auto;
+}
+.recommendation__menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    list-style-type: none;
+    margin-top: 40px;
+    grid-gap: 30px;
+}
+.recommendation__menu > li {
+    display: flex;
+    grid-gap: 20px;
+    align-items: center;
+}
+.recommendation__menu > li > i {
+    font-size: 32px;
+}
+
+/* Contacts ========================================> */
+.contacts {
+    width: 100%;
+    padding: 60px 300px;
+    background: #f1f1f1;
+}
+.contacts__inner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 20px;
+}
+
+/* Dates ========================================> */
+.dates {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/slider-6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.dates__inner {
+    width: 100%;
+    height: 100%;
+    background: #202020a8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    flex-direction: column;
+    grid-gap: 15px;
+}
+
+/* Products ========================================> */
+.products {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    margin-bottom: 40px;
+}
+.product__item {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+.product__item > img {
+    width: 100%;
+    height: 240px;
+}
+.product__title {
+    width: auto;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    position: relative;
+}
+.product__title::after {
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 1px;
+    background: #000;
+    bottom: -10px;
+    left: 30px;
+}
+.product__txt {
+    font-size: 16px;
+    color: #000;
+    font-family: 'Montserrat';
+}
+.product__price {
+    margin-top: 20px;
+    font-weight: 500;
+}
+.txt__info {
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: -15px;
+}
+
+/* Chefs ========================================> */
+.chefs {
+    width: 100%;
+    height: auto;
+    background: #f1f1f1;
+    padding: 40px;
+}
+.chefs__inner {
+    width: 100%;
+    display: flex;
+    grid-gap: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.chef__image {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+    position: relative;
+}
+.chef__name {
+    font-size: 22px;
+    color: #000;
+}
+.chef__info {
+    padding: 0 90px;
+    width: 100%;
+    font-size: 15px;
+    margin-top: 20px;
+}
